@@ -61,8 +61,8 @@ function ConfigEnvironmentVariable {
     #最大连接数，默认是16
     maxclients=1024
     #服务器的证书和key文件，放在本脚本的同目录下，key文件的权限应该是600或者400
-    servercert="cert.pem"
-    serverkey="key.pem"
+    servercert="server-cert.pem"
+    serverkey="server-key.pem"
     #配置目录，你可更改为 /etc/ocserv 之类的
     confdir="/usr/local/etc/ocserv"
 
