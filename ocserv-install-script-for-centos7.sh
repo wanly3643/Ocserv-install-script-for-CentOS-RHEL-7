@@ -159,7 +159,8 @@ function CompileOcserv {
     gcc pcre-devel openssl openssl-devel curl-devel \
     freeradius-client-devel freeradius-client lz4-devel lz4 \
     http-parser-devel http-parser protobuf-c-devel protobuf-c \
-    pcllib-devel pcllib cyrus-sasl-gssapi dbus-devel policycoreutils gperf
+    pcllib-devel pcllib cyrus-sasl-gssapi dbus-devel policycoreutils gperf \
+    libev libev-devel
 
 :<<_EOF_
     wget -t 0 -T 60 "http://ftp.gnu.org/gnu/libtasn1/libtasn1-${libtasn1_version}.tar.gz"
